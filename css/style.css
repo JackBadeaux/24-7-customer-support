@@ -157,10 +157,12 @@ color: lightgray;
     background-color: rgb(83, 82, 82);
   }
   .signup{
-    background-color: orange;
+    background:linear-gradient(rgb(225, 135, 0),rgb(255, 94, 0));
     color: white;
     padding: 10px;
     border: none;
     border-radius: 25%;
     cursor: pointer;
+    width: fit-content;
+    min-width: 100px;
   }
