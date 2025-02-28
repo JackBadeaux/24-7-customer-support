@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +6,8 @@
 .banner{
     height: 200px;
     background-color: #282434;
+    border-bottom: 2px solid rgba(148, 146, 146, 0.808);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .navbar{
     display: flex;
@@ -13,14 +16,22 @@
     justify-content: flex-end;
 
 }
+.navbar li{
+padding: 10px;
+}
+
 .navbar li a{
     text-decoration: none;
     color: rgba(211, 211, 211, 0.37);
 }
+.navbar li a:hover{
+    color: white;
+}
 .logoimg{
-    background-color: lightblue;
+    background-color: #746c8c;
     font-size: 50px;
     padding: 2px;
+    color: white;
     
 }
 .logocontainer{
@@ -33,11 +44,123 @@
     flex-direction: column;
     margin-left: 10px;
     color: white;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 sup{
     vertical-align: top;
-    font-size: 0.5em;
+    font-size: 0.4em;
     position: relative;
     top: -2px;
-    left: -10px;
+    left: -5px;
 }
+.logoimg p{
+    padding-left: 10px;
+}
+.titlecontainer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #282434;
+    text-align: center;
+    padding: 100px;
+}
+.titlecontainer p{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: rgba(255, 255, 255, 0.514);
+}
+.titlecontainer button{
+    background-color: #746c8c;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.titlecontainer h3{
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.699);
+    font-size:24px;
+}
+.infocontainer{
+    display: flex;
+    background-color: lightsalmon;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.infoimg{
+    display: flex;
+    border-radius: 50%;
+    background-color: #746c8c;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    text-align: center; 
+    align-items: center;
+    justify-content: center;
+}
+.infoitem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.infocontainer h2{
+color: white;
+}
+.infocontainer h3{
+color: lightgray;
+}
+.pricecontainer{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.623);
+}
+.pricecontainer h1{
+    background-color: #746c8c;
+    border-bottom: 2px solid rgb(235, 235, 214);
+    padding: 20px;
+    border-radius: 3%;
+}
+.pricecontainer h2{
+    background-color: #746c8c;
+    padding: 20px;
+}
+.priceitem{
+    position: relative;
+    margin-top: 10px;
+}
+.arrow-down {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 15px solid #746c8c;
+    left: calc(50% - 20px);
+  }
+  .priceinfo{
+    margin-top: 7px;
+  }
+  .priceinfo p{
+    padding: 10px;
+    border: 1.5px solid rgba(85, 84, 84, 0.671);
+    color: white;
+  }
+  .priceinfo p:nth-child(odd){
+    background-color: rgb(165, 163, 163);
+  }
+  .priceinfo p:nth-child(even){
+    background-color: rgb(83, 82, 82);
+  }
+  .signup{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 25%;
+    cursor: pointer;
+  }
