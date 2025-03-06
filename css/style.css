@@ -209,6 +209,7 @@ padding-bottom: 20px;
 footer img{
     width: 100%;
     margin-bottom: -10px;
+    min-height: 100px;
 }
 .shopcontainer p{
     color: rgb(136, 135, 135);
